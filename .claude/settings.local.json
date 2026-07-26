@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(rm -rf data/brand_new_history_dir2)",
+      "Bash(rm -rf data/roundtrip_test)",
+      "Bash(rm -rf data/list_test)",
+      "Bash(rm -rf \"/Users/saisamratmalka/Documents/Learnings/AI Workspace/First AI chat/data/list_test\")",
+      "Bash(rm -rf data/list_test2)",
+      "Bash(rm -rf \"/Users/saisamratmalka/Documents/Learnings/AI Workspace/First AI chat/data/list_test2\")",
+      "Bash(rm -rf data/list_test3)",
+      "Bash(rm -rf \"/Users/saisamratmalka/Documents/Learnings/AI Workspace/First AI chat/data/list_test3\")",
+      "Bash(rm -rf data/final_test)",
+      "Bash(rm -rf \"/Users/saisamratmalka/Documents/Learnings/AI Workspace/First AI chat/data/final_test\")",
+      "Bash(python3 -c \"import httpx; print\\(httpx.__version__\\)\")",
+      "Bash(git check-ignore *)",
+      "Bash(uv run *)",
+      "Bash(uv add *)",
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)",
+      "Bash(uv sync *)",
+      "Bash(echo \"exit code: $?\")",
+      "Bash(git add *)"
+    ]
+  }
+}
