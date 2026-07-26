@@ -1,5 +1,7 @@
 # First AI Chat
 
+[![CI](https://github.com/saisamrat/First-AI-chat/actions/workflows/ci.yml/badge.svg)](https://github.com/saisamrat/First-AI-chat/actions/workflows/ci.yml)
+
 A small async CLI chat app built as a practice exercise for Python's `asyncio`, `async`/`await`, and `httpx` — streaming responses from [Groq](https://groq.com)'s OpenAI-compatible API, with conversation history, background autosave, and non-blocking logging.
 
 ## Requirements
