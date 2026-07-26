@@ -1,0 +1,25 @@
+[project]
+name = "first-ai-chat"
+version = "0.1.0"
+description = "Async CLI chat app streaming responses from the Groq API, built as an asyncio/httpx practice exercise"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "tomli>=2.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-m 'not integration'"
+markers = [
+    "integration: hits the real Groq API, needs GROQ_API_KEY (run explicitly with -m integration)",
+]
